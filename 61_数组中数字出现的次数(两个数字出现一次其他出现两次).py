@@ -22,7 +22,7 @@ class Solution(object):
         #求这个值右边第一个1的值
         num=1  
         while not(tmp&num):
-            num=num<<1
+            num=num+1
 
         print(num, "@@", bin(num))
         result1=0
