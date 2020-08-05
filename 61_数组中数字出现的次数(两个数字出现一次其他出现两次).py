@@ -45,7 +45,7 @@ class Solution(object):
 
         num=1
         while not num&tmp:
-            num<<=1
+            num+=1
 
         result1=0
         result2=0
