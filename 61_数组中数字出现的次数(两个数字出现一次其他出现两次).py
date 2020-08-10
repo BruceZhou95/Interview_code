@@ -29,9 +29,9 @@ class Solution(object):
         result2=0
         #根据这个值对两个数组进行划分
         for i in nums:
-            if (i&num): # 二进制中右边第num个不是1的数字
+            if (i&num): # 二进制中右边第num个是1的数字
                 result1^=i #自身求异或去掉重复元素
-            else:       # 二进制中右边第num个是1的数字
+            else:       # 二进制中右边第num个不是1的数字
                 result2^=i # 
         return [result1,result2]
 
@@ -58,43 +58,4 @@ class Solution(object):
 
 s=Solution()
 print(s.singleNumbers1([2,4,3,6,3,2,5,5]))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
