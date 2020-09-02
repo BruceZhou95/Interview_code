@@ -2,7 +2,7 @@
 w=[0 , 2 , 3 , 4 , 5 ]			#商品的重量2、3、4、5
 v=[0 , 3 , 4 , 5 , 6 ]		#商品的价值3、4、5、6
 bagV=8					        #背包允许的最大承重
-dp=[[0 for i in range(9) ]for i in range(5)]		       #动态规划表
+dp=[[0]*(bagv+1)]*(len(w))		       #动态规划表
 item = [0]*5                 #最优解情况
 def findMax(): #动态规划
     for i in range (5):
