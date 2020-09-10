@@ -1,4 +1,4 @@
-# n进制转10进制
+# 1.n进制转10进制
 s="0123456789abcdefghijklmnopqrstuvwxyz"
 tmp="11101101"
 len1=len(tmp)
